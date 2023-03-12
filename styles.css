@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    background-color: rgb(231, 231, 231);
+
+}
+
+.information-column{
+    padding: 40px;
+    background: #175973;
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid rgb(126, 126, 126);
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.information-column hr{
+    border: none;
+    border-bottom: 1px solid black;
+    margin-top: 18px;
+}
+
+.information-column img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid white;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+
+}
+
+.information-column ul{
+    list-style-type: none;
+}
+
+.information-column li{
+    text-align: left;
+    font-weight: bolder;
+    list-style: none;
+    margin: 10px 0;
+}
+
+.information-column h1 {
+    color: white;
+    margin: 5px;
+    margin-bottom: 8px;
+    text-align: center;
+
+}
+
+.information-column h2 {
+    color: white;
+    margin: 5px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.information-column h3{
+    text-align: left;
+    margin-top: 20px;
+}
+
+.contact-description a{
+    text-decoration: none;
+    color: #081442;
+}
+
+.contact-description i{
+    color: black;
+    margin: 5px;
+}
+
+.education-description p {
+    color: black;
+    margin-top: 20px;
+}
+
+
+/* language description*/
+
+.language-description .percent.english{
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 90%;
+}
+
+
+.language-description .percent.english div {
+    height: 6px;
+    background-color: #FF5722;
+    width: 25%;
+    height: 9px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgb(245, 159, 0);
+}
+
+/* hard skills*/
+/* hard skills Power BI*/
+
+.hard-skills .percent-power-bi {
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 90%;
+}
+.hard-skills .percent-power-bi div {
+    height: 6px;
+    background-color: #FF5722; 
+    width: 50%;
+    height: 9px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgb(245, 159, 0);    
+}
+
+/* hard skills Qgis*/
+
+.hard-skills .percent-qgis {
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 90%;
+}
+
+.hard-skills .percent-qgis div {
+    height: 6px;
+    background-color: #FF5722; 
+    width: 40%;
+    height: 9px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgb(245, 159, 0);    
+}
+
+/* hard skills Arcgis*/
+
+.hard-skills .percent-arcgis {
+    height: 10px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+    width: 90%;
+}
+
+.hard-skills .percent-arcgis div {
+    height: 6px;
+    background-color: #FF5722; 
+    width: 30%;
+    height: 9px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgb(245, 159, 0);    
+}
+
+
+/* Experiências*/
+
+
+.experiences-column {
+    background-color: #fff;
+    padding: 40px;
+    color: #000;
+    border-radius: 10px;
+    border: 2px solid rgb(126, 126, 126);
+    margin-top: 10px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+}
+
+.experiences-column h2 {
+    margin-bottom: 15px;
+}
+
+.experiences-column p {
+    text-align: justify;
+}
+
+.experiences-column section{
+    margin-bottom: 30px;
+}
+
+.experiences-column .experience{
+    margin-bottom: 14px;
+}
+
+.experiences-column a{
+    text-decoration: underline;
+    color: #000;
+}
+
+.experiences-column .last-date{
+    text-align: right;
+}
+
+@media (min-width: 992px) {
+    .container{
+        display: flex;
+    }
+
+    .information-column img {
+        width: 200px;
+        height: 200px;
+    }
+
+
+
+    .information-column {
+        margin: 10px;
+    }
+
+
+    .experiences-column {
+        margin: 10px;
+    }
+
+
+
+    .experiences-column .experience {
+        display: flex;
+    }
+    .experiences-column .experience-descrition{
+        width: 100%;
+    }
+    .experience-date {
+        width: 300px;
+    }
+}
